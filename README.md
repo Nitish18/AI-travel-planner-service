@@ -111,14 +111,14 @@ List of API endpoints:
             'data_hotel': [],
             'data_flight': [],
             'data_food_places': []
-        }
+     }
      ```
 2. `http://localhost/karo_travel_plan/itineraries/` - GET request to get all the itineraries.
    - Response:
    ```json
-     [
-         {
-            "itinerary_id": "d675b60b-6a4e-427e-9d0c-535159beabd2",
+   [
+     {
+        "itinerary_id": "d675b60b-6a4e-427e-9d0c-535159beabd2",
         "customer_id": 1,
         "no_of_days": 3,
         "city": "Manali",
@@ -190,7 +190,9 @@ List of API endpoints:
         },
         "updated_at": "2024-06-03T11:08:31.567218Z",
         "created_at": "2024-06-03T11:08:31.567162Z",
-        "upvote_count": 0 } ]```
+        "upvote_count": 0
+     }
+   ]```
 
 3. `http://localhost/karo_travel_plan/itinerary/8fa0568e-2258-4bf8-97b4-800d1015333c` - GET request to get data about each travel itiniary.
 
